@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather UI</title>
+    <link rel="stylesheet" href="real weather.css">
+</head>
+<body>
+
+    <div class="weather-card">
+
+        <h2>Etoo's Weather App</h2>
+
+
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Search city...">
+            <button id="search-btn">Search</button>
+        </div>
+        
+       
+        <div id="error-message"></div>
+
+        <div class="weather-info">
+            <img id="main-icon" src="weathericon.png" alt="weather">
+
+            <h1 class="current-temp"></h1>
+
+            <h3 class="current-city"></h3>
+            <p class="current-description"></p>
+
+            <p id="current-condition">☀️ Sunny</p>
+
+            <div class="details">
+                <div>
+                    <h4>Humidity</h4>
+                    <p class="current-humidity"></p>
+                </div>
+
+                <div>
+                    <h4>Wind</h4>
+                    <p class="current-wind"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast-section">
+            <h3>7-Day Forecast</h3>
+            <div class="forecast-container">
+                <div class="forecast-item">
+                    <span class="day">Mon</span>
+                    <span class="icon">☀️</span>
+                    <span class="temp">29°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Tue</span>
+                    <span class="icon">⛅</span>
+                    <span class="temp">28°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Wed</span>
+                    <span class="icon">🌧️</span>
+                    <span class="temp">26°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Thu</span>
+                    <span class="icon">⛈️</span>
+                    <span class="temp">25°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Fri</span>
+                    <span class="icon">☁️</span>
+                    <span class="temp">27°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Sat</span>
+                    <span class="icon">☀️</span>
+                    <span class="temp">30°C</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="day">Sun</span>
+                    <span class="icon">💨</span>
+                    <span class="temp">28°C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="real weather.js"></script>
+</body>
+</html>
