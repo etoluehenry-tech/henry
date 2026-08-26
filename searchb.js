@@ -1,4 +1,4 @@
-import { searchbtn, searchbox } from "./real weather.js";
+import { searchbtn, searchbox } from "./realweather.js";
 import { checkweather } from "./api.js";
 export function search () {
 searchbtn.addEventListener("click", () => {

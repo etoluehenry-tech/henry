@@ -1,4 +1,4 @@
-import {selectors} from "./real weather.js";
+import {selectors} from "./realweather.js";
 
 export function updateForecast(forecastData) {
 

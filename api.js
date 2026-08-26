@@ -1,4 +1,4 @@
-import {apikey,geoUrl, weatherUrl, forecastUrl} from "./real weather.js";
+import {apikey,geoUrl, weatherUrl, forecastUrl} from "./realweather.js";
 import { updateForecast } from "./ui.js";
 
 
